@@ -1,0 +1,201 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="claim_causetype_Collision                 1.000000
+claim_causetype_Other                     0.000000
+claim_causetype_Theft                     0.000000
+claim_causetype_Weather                   0.000000
+claim_causetype_missing                   0.000000
+object_make_BMW                           0.000000
+object_make_CITROEN                       0.000000
+object_make_OPEL                          0.000000
+object_make_OTHER                         0.000000
+object_make_RENAULT                       0.000000
+object_make_VOLKSWAGEN                    1.000000
+ph_gender_M                               0.000000
+ph_gender_other                           0.000000
+policy_profitability_Low                  0.000000
+policy_profitability_Neutral              0.000000
+policy_profitability_Very high            0.000000
+policy_profitability_Very low             0.000000
+claim_location_urban_area                 1.000000
+policy_fleet_flag                         1.000000
+policy_insured_amount                 37483.000000
+diff_days_between_claim_occ_report        1.000000
+claim_amount_claimed_total_new         1996.000000
+Age_of_vehicle                            0.000000
+time_since_claim                         11.997509
+Name: 10, dtype: float64 <= 0.5\ngini = 0.0\nsamples = 40474\nvalue = [63489, 509]"] ;
+1 [label="claim_causetype_Collision                 1.000000
+claim_causetype_Other                     0.000000
+claim_causetype_Theft                     0.000000
+claim_causetype_Weather                   0.000000
+claim_causetype_missing                   0.000000
+object_make_BMW                           0.000000
+object_make_CITROEN                       0.000000
+object_make_OPEL                          1.000000
+object_make_OTHER                         0.000000
+object_make_RENAULT                       0.000000
+object_make_VOLKSWAGEN                    0.000000
+ph_gender_M                               1.000000
+ph_gender_other                           0.000000
+policy_profitability_Low                  0.000000
+policy_profitability_Neutral              0.000000
+policy_profitability_Very high            0.000000
+policy_profitability_Very low             0.000000
+claim_location_urban_area                 0.000000
+policy_fleet_flag                         0.000000
+policy_insured_amount                 76915.000000
+diff_days_between_claim_occ_report        0.000000
+claim_amount_claimed_total_new          786.000000
+Age_of_vehicle                            3.000000
+time_since_claim                          8.783206
+Name: 21, dtype: float64 <= 112.5\ngini = 0.0\nsamples = 27863\nvalue = [43545, 395]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="claim_causetype_Collision                 1.000000
+claim_causetype_Other                     0.000000
+claim_causetype_Theft                     0.000000
+claim_causetype_Weather                   0.000000
+claim_causetype_missing                   0.000000
+object_make_BMW                           0.000000
+object_make_CITROEN                       0.000000
+object_make_OPEL                          1.000000
+object_make_OTHER                         0.000000
+object_make_RENAULT                       0.000000
+object_make_VOLKSWAGEN                    0.000000
+ph_gender_M                               0.000000
+ph_gender_other                           1.000000
+policy_profitability_Low                  0.000000
+policy_profitability_Neutral              0.000000
+policy_profitability_Very high            0.000000
+policy_profitability_Very low             1.000000
+claim_location_urban_area                 0.000000
+policy_fleet_flag                         0.000000
+policy_insured_amount                 60009.746802
+diff_days_between_claim_occ_report        0.000000
+claim_amount_claimed_total_new          101.000000
+Age_of_vehicle                            3.000000
+time_since_claim                         10.924249
+Name: 0, dtype: float64 <= 0.5\ngini = 0.0\nsamples = 2767\nvalue = [4321, 25]"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 1071\nvalue = [1669, 16]"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 1696\nvalue = [2652, 9]"] ;
+2 -> 4 ;
+5 [label="claim_causetype_Collision                 0.000000
+claim_causetype_Other                     0.000000
+claim_causetype_Theft                     0.000000
+claim_causetype_Weather                   1.000000
+claim_causetype_missing                   0.000000
+object_make_BMW                           1.000000
+object_make_CITROEN                       0.000000
+object_make_OPEL                          0.000000
+object_make_OTHER                         0.000000
+object_make_RENAULT                       0.000000
+object_make_VOLKSWAGEN                    0.000000
+ph_gender_M                               1.000000
+ph_gender_other                           0.000000
+policy_profitability_Low                  0.000000
+policy_profitability_Neutral              0.000000
+policy_profitability_Very high            0.000000
+policy_profitability_Very low             0.000000
+claim_location_urban_area                 1.000000
+policy_fleet_flag                         0.000000
+policy_insured_amount                 60009.746802
+diff_days_between_claim_occ_report        2.000000
+claim_amount_claimed_total_new         1009.000000
+Age_of_vehicle                            0.000000
+time_since_claim                         11.622415
+Name: 23, dtype: float64 <= 6.9\ngini = 0.0\nsamples = 25096\nvalue = [39224, 370]"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 2000\nvalue = [3145, 13]"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 23096\nvalue = [36079, 357]"] ;
+5 -> 7 ;
+8 [label="claim_causetype_Collision                 1.000000
+claim_causetype_Other                     0.000000
+claim_causetype_Theft                     0.000000
+claim_causetype_Weather                   0.000000
+claim_causetype_missing                   0.000000
+object_make_BMW                           1.000000
+object_make_CITROEN                       0.000000
+object_make_OPEL                          0.000000
+object_make_OTHER                         0.000000
+object_make_RENAULT                       0.000000
+object_make_VOLKSWAGEN                    0.000000
+ph_gender_M                               1.000000
+ph_gender_other                           0.000000
+policy_profitability_Low                  0.000000
+policy_profitability_Neutral              0.000000
+policy_profitability_Very high            0.000000
+policy_profitability_Very low             1.000000
+claim_location_urban_area                 1.000000
+policy_fleet_flag                         0.000000
+policy_insured_amount                 60009.746802
+diff_days_between_claim_occ_report      100.000000
+claim_amount_claimed_total_new          349.000000
+Age_of_vehicle                            2.000000
+time_since_claim                          8.687379
+Name: 19, dtype: float64 <= 64686.5\ngini = 0.0\nsamples = 12611\nvalue = [19944, 114]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="claim_causetype_Collision                 0.000000
+claim_causetype_Other                     0.000000
+claim_causetype_Theft                     0.000000
+claim_causetype_Weather                   1.000000
+claim_causetype_missing                   0.000000
+object_make_BMW                           1.000000
+object_make_CITROEN                       0.000000
+object_make_OPEL                          0.000000
+object_make_OTHER                         0.000000
+object_make_RENAULT                       0.000000
+object_make_VOLKSWAGEN                    0.000000
+ph_gender_M                               1.000000
+ph_gender_other                           0.000000
+policy_profitability_Low                  0.000000
+policy_profitability_Neutral              0.000000
+policy_profitability_Very high            0.000000
+policy_profitability_Very low             0.000000
+claim_location_urban_area                 1.000000
+policy_fleet_flag                         0.000000
+policy_insured_amount                 60009.746802
+diff_days_between_claim_occ_report        2.000000
+claim_amount_claimed_total_new         1009.000000
+Age_of_vehicle                            0.000000
+time_since_claim                         11.622415
+Name: 23, dtype: float64 <= 9.7\ngini = 0.0\nsamples = 11543\nvalue = [18279, 87]"] ;
+8 -> 9 ;
+10 [label="gini = 0.0\nsamples = 6975\nvalue = [11045, 62]"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 4568\nvalue = [7234, 25]"] ;
+9 -> 11 ;
+12 [label="claim_causetype_Collision                 1.000000
+claim_causetype_Other                     0.000000
+claim_causetype_Theft                     0.000000
+claim_causetype_Weather                   0.000000
+claim_causetype_missing                   0.000000
+object_make_BMW                           0.000000
+object_make_CITROEN                       0.000000
+object_make_OPEL                          1.000000
+object_make_OTHER                         0.000000
+object_make_RENAULT                       0.000000
+object_make_VOLKSWAGEN                    0.000000
+ph_gender_M                               1.000000
+ph_gender_other                           0.000000
+policy_profitability_Low                  0.000000
+policy_profitability_Neutral              0.000000
+policy_profitability_Very high            0.000000
+policy_profitability_Very low             0.000000
+claim_location_urban_area                 0.000000
+policy_fleet_flag                         0.000000
+policy_insured_amount                 76915.000000
+diff_days_between_claim_occ_report        0.000000
+claim_amount_claimed_total_new          786.000000
+Age_of_vehicle                            3.000000
+time_since_claim                          8.783206
+Name: 21, dtype: float64 <= 41.5\ngini = 0.0\nsamples = 1068\nvalue = [1665, 27]"] ;
+8 -> 12 ;
+13 [label="gini = 0.1\nsamples = 27\nvalue = [38, 3]"] ;
+12 -> 13 ;
+14 [label="gini = 0.0\nsamples = 1041\nvalue = [1627, 24]"] ;
+12 -> 14 ;
+}
